@@ -3,7 +3,10 @@ from flask_restful import Resource
 devises = [
   {
     "id": 1,
-    "EUR":1
+    "EUR":1,
+    "USD":1.08,
+    "CHF":1.05,
+    "GBD":0.87
   },
   {
     "id": 2,
