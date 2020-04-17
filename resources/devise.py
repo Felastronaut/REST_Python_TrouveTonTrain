@@ -1,21 +1,21 @@
 from flask_restful import Resource
 
-devise = [
+devises = [
   {
     "id": 1,
-    "EUR":1,
+    "EUR":1
   },
   {
     "id": 2,
-    "USD":1.08,
+    "USD":1.08
   },
   {
     "id": 3,
-    "CHF":1.05,
+    "CHF":1.05
   },
   {
     "id": 4,
-    "GBD":0.87,
+    "GBD":0.87
   }
 ]
 
