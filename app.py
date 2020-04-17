@@ -6,5 +6,5 @@ from resources.devise import Devise
 app = Flask(__name__)
 api = Api(app)
 
-api.add_resource(Devise, "/devise")
+api.add_resource(Devise, "/devise/<int:id>")
 
