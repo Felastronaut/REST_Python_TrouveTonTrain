@@ -8,5 +8,3 @@ api = Api(app)
 
 api.add_resource(Todo, "/todo/<int:id>")
 
-if __name__ == "__main__":
-  app.run()
