@@ -25,10 +25,10 @@ class Todo(Resource):
         return todo, 200
     return "Item not found for the id: {}".format(id), 404
 
-  def put(self, id):
-    for todo in todos:
-      if(id == todo["id"]):
-        todo["item"] = request.form["data"]
-        todo["status"] = "Open"
-        return todo, 200
-    return "Item not found for the id: {}".format(id), 404
+    def put(self, id):
+      for todo in todos:
+        if(id == todo["id"]):
+          todo["item"] = request.form["data"]
+          todo["status"] = "Open"
+          return todo, 200
+      return "Item not found for the id: {}".format(id), 404
